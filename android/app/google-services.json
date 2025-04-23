@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "863081427842",
+    "project_id": "couplink-17882",
+    "storage_bucket": "couplink-17882.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863081427842:android:21c271c0f736abe214559b",
+        "android_client_info": {
+          "package_name": "com.couplink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfTsK_kiWvU87DeUcesM-Wy-JQIFG3_Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

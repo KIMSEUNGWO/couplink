@@ -1,0 +1,66 @@
+name: couplink_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.15 # SVG 파일 열기
+  hive: ^2.2.3 # NoSQL
+  hive_flutter: ^1.1.0 # NoSQL 확장 패키지
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0 # DateFormat
+  jiffy: ^6.3.2 # cr_calendar 사용을 위한 패키지
+  scrollable_positioned_list: ^0.3.8 # cr_calendar 사용을 위한 패키지
+  flutter_riverpod: ^2.6.1
+
+  flutter_localization: ^0.2.3 # local 설정을 위한 패키지
+  easy_localization: ^3.0.7+1
+  uuid: ^4.5.1
+  connectivity_plus: ^6.1.3 # 네트워크 상태확인
+  flutter_secure_storage: ^9.2.4 # Flutter Secure Storage
+  dio: ^5.8.0+1 # HTTP
+  workmanager: ^0.5.2 # 백그라운드 작업
+
+  firebase_core: ^3.13.0
+  firebase_messaging: ^15.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.7 # Hive 객체사용
+  hive_generator: ^2.0.1 # Hive 객체사용
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/fonts/
+    - assets/translations/
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Pretendard-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Pretendard-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/Pretendard-Bold.otf
+          weight: 700
+    - family : Tmoney
+      fonts :
+        - asset: assets/fonts/TmoneyRoundWindRegular.otf
+          weight: 500
+        - asset : assets/fonts/TmoneyRoundWindExtraBold.otf
+          weight: 600
